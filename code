@@ -1,0 +1,15 @@
+photo_editor_app/
+│
+├── lib/
+│   ├── main.dart              # Entry point
+│   ├── ui/                    # UI components
+│   │    ├── editor_screen.dart
+│   │    ├── filter_panel.dart
+│   │    └── crop_panel.dart
+│   ├── models/                # Data models
+│   ├── services/              # Image processing logic
+│   └── utils/                 # Helpers, constants
+│
+├── assets/                    # Images, icons
+├── pubspec.yaml               # Dependencies
+├── README.md
