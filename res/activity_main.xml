@@ -1,0 +1,17 @@
+<Button
+    android:id="@+id/btnAddSticker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add Sticker" />
+
+<Button
+    android:id="@+id/btnDraw"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Draw" />
+
+<Button
+    android:id="@+id/btnCrop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Crop" />
