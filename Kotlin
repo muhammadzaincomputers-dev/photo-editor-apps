@@ -1,0 +1,2 @@
+val stickerBitmap = BitmapFactory.decodeResource(resources, R.drawable.sticker)
+photoEditor.addImage(stickerBitmap)
