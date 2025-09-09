@@ -1,0 +1,15 @@
+PhotoEditorAndroid/
+│
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/photoeditor/
+│   │   │   │   ├── MainActivity.kt
+│   │   │   ├── res/
+│   │   │   │   ├── layout/activity_main.xml
+│   │   │   │   ├── drawable/
+│   │   │   │   ├── values/
+│   ├── build.gradle
+│
+├── build.gradle
+├── README.md
