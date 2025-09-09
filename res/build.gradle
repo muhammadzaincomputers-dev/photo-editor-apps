@@ -1,0 +1,6 @@
+implementation 'com.github.yalantis:ucrop:2.2.8'
+val intent = UCrop.of(sourceUri, destinationUri)
+    .withAspectRatio(1f, 1f)
+    .withMaxResultSize(500, 500)
+    .getIntent(this)
+startActivityForResult(intent, UCROP_REQUEST_CODE)
