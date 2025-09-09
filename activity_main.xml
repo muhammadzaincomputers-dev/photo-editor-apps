@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.burhanrashid52.photoeditor.PhotoEditorView
+            android:id="@+id/photoEditorView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#ddd" />
+
+        <Button
+            android:id="@+id/btnPickImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick Image" />
+
+        <Button
+            android:id="@+id/btnAddText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Text" />
+
+        <Button
+            android:id="@+id/btnAddFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Grayscale Filter" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Image" />
+
+    </LinearLayout>
+</layout>
