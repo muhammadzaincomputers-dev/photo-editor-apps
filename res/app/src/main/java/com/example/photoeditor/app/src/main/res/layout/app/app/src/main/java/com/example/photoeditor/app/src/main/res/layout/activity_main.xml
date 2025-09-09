@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.burhanrashid52.photoeditor.PhotoEditorView
+                android:id="@+id/photoEditorView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#ddd" />
+
+            <Button
+                android:id="@+id/btnPickImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick Image" />
+
+            <Button
+                android:id="@+id/btnAddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Text" />
+
+            <Button
+                android:id="@+id/btnAddFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply Grayscale Filter" />
+
+            <Button
+                android:id="@+id/btnStickerPicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sticker Picker" />
+
+            <Button
+                android:id="@+id/btnDraw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brush Controls" />
+
+            <Button
+                android:id="@+id/btnDisableDraw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disable Draw Mode" />
+
+            <Button
+                android:id="@+id/btnClearDrawings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear Drawings" />
+
+            <Button
+                android:id="@+id/btnCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crop Image" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Image" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
