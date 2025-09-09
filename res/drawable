@@ -1,0 +1,3 @@
+photoEditor.setBrushDrawingMode(true)
+photoEditor.brushColor = Color.RED // Set brush color
+photoEditor.brushSize = 10f        // Set brush size
